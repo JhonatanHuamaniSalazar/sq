@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+/* General Common Styles */
 
 * {
     margin: 0;
@@ -32,8 +33,8 @@ a.btn {
     color: #fff;
     border-radius: 4px;
     text-transform: uppercase;
-    background-color: #2196f3;
-    font-weight: 800;
+    background-color: #00E9B4;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -186,7 +187,8 @@ header nav li:last-child {
 }
 
 .hero a.btn {
-    padding: 20px 46px;
+    padding: 20px 20px;
+
 }
 
 @media (max-width: 800px) {
@@ -334,13 +336,32 @@ header nav li:last-child {
 }
 
 .contact form input {
-    padding: 15px;
+    padding: 10px;
     flex: 1;
     margin-right: 30px;
     font-size: 18px;
     color: #555;
 }
+ footera{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #D9DDDE;
+    padding: 100px 100px;
 
+}
+.register form input {
+    padding: 10px;
+    flex: 1;
+    margin-right: 30px;
+    font-size: 18px;
+    color: #555;
+}
+.register form .btn {
+    padding: 10px 10px;
+
+}
 .contact form .btn {
     padding: 18px 42px;
 }
@@ -353,7 +374,7 @@ footer {
     align-items: center;
     text-align: center;
     color: #fff;
-    background-color: #414A4F;
+    background-color: #1554A9;
     padding: 60px 0;
 }
 
@@ -383,7 +404,7 @@ footer p {
 }
 
 footer p a {
-    color: #14FFE6;
+    color: #FFF;
 }
 
 @media (max-width: 700px) {
