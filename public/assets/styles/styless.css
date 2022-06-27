@@ -39,7 +39,7 @@ a.btn {
 }
 
 hr {
-    width: 150px;
+    width: 500px;
     height: 2px;
     background-color: #2196f3;
     border: 0;
@@ -482,4 +482,31 @@ footer p a {
     .doctors  .grid li {
         flex-basis: 100%;
     }
+}
+
+
+.services2 {
+    background-color: #D1E4FF;
+}
+
+.services2 .grid li {
+    padding: 0 30px;
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.services2 .grid li i {
+    font-size: 50px;
+    color: #2196F3;
+    margin-bottom: 25px;
+}
+
+.services2 .grid li h4 {
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.services2 .grid li p {
+    margin: 0;
 }
