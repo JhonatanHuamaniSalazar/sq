@@ -116,7 +116,8 @@ header nav {
 }
 
 header nav li {
-    margin: 0 15px;
+    margin: 0 25px;
+
 }
 
 header nav li:first-child {
@@ -366,6 +367,9 @@ header nav li:last-child {
     padding: 18px 42px;
 }
 
+header nav li .btn {
+    padding: 10px 10px;
+}
 /* Footer Section */
 
 footer {
